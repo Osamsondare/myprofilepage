@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samson O. Dada's Profile</title>
+    <link rel="stylesheet" href="third.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+<body>
+ 
+
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name"><a href="samwise profile page .html">Samson O. Dada</a></li>
+          <div class="fright">
+            <li><a href="about me.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </div>
+          </ul>
+    </div>
+
+    <header>
+      <img src="samwisepic.jpeg" alt="Samson O. Dada" class="profile-image">
+      
+      <h1 class="tag name">Hello, I’m Samson.</h1>
+      <p class="tag location">Front-End Developer.</p>
+      
+    </header>
+
+    <main class="flex">
+      <div class="card">
+        <h2>Background</h2>
+        <p>I’m a web developer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
+        <p>I'm a life-long learner who's always interested in expanding my skills.</p>
+      </div> 
+
+      <div class="card">
+        <h2>Goals</h2>
+        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Nodejs</li>
+          <li>ReactJS</li>
+        </ul>
+        <p>I’d like to work for a web development firm helping clients create an impressive online presence.</p>
+      </div> 
+
+    </main>
+   
+    
+  <div class="workdone">
+    <h2> Previous Work Done</h2>
+    <br><br>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Logo_trial_3-removebg-preview 1.png" style="object-fit: cover;">
+        <div class="text">
+          <p style="color:black ; font-size:x-large;">Gocipe web page</p>
+          <a href="#">Click here to visit Gocipe web page</a>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="login.png" style="object-fit: cover;">
+        <div class="text">
+          <p style="color:black ; font-size:x-large;">Simple Registration and login page page</p>
+          <a href="#">Click here to go to Simple registration Page</a>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="guess game.png" style="object-fit: cover;">
+        <div class="text">
+          <p style="color:black ; font-size:x-large;">Number Guessing game</p>
+          <a href="#">Click here to go to guessing game</a>
+        </div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+    
+  </div>
+  <script >
+      let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+  </script>
+
+   
+<footer>
+  <p class="copyright">All right reserved </p>
+  <p class="copyright"> Samson O. Dada ©Copyright 2022</p>
+
+</footer>
+
+</body>
+</html>

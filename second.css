@@ -1,0 +1,152 @@
+body {
+    background-color: white; 
+    padding-top: 0px;
+    position: absolute; 
+  }
+  
+  #home {
+    background-image: url("https://rihahalim.files.wordpress.com/2015/01/background-2.jpg?w=1180&h=610&crop=1"); 
+    background-color: red;
+    background-image: cover;  
+  }
+  
+  #aboutme{
+    background-image: url("http://yevma.com/wp-content/uploads/2015/02/white-wood-300x200.jpg");
+    background-color: chartreuse; 
+    background-image: cover; 
+    height: 125vh; 
+  }
+  
+  #home{
+        top: 99;
+        left: 99;
+        position: relative;
+        z-index: 1;
+        visibility: show;
+        font-family: Arial Black;    
+        text-align: left;
+        margin-top: 5%;
+        margin-left: 0%;
+        padding-top: 90px; 
+            
+  }
+  
+  #preaboutme {
+        top: 99;
+        left: 99;
+        position: relative;
+        z-index: 1;
+        visibility: show;
+        font-family: Arial Black;    
+        text-align: justify;
+        margin-top: 0%;
+        margin-left: 0%; 
+            
+  }
+  
+  #portfolio {
+        top: 99;
+        left: 99;
+        position: relative;
+        z-index: 1;
+        visibility: show;
+        font-family: Arial Black;    
+        text-align: justify;
+        margin-top: 0%;
+        margin-left: 0%; 
+            
+  }
+  
+  #contactme {
+    top: 99;
+    left: 99;
+    position: relative;
+    z-index: 1;
+    visibility: show;
+    font-family: Cookie, Cursive;   
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .margin-text {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  #contactme {
+    background-color: tomato;
+    background-size: cover; 
+    height: 125vh; 
+  }
+  
+  #portfolio {
+    background-color: white;
+    background-size: cover; 
+    height: 50vh; 
+  }
+  
+  .smaller-image{
+    border-color: white; 
+    border-width: 5px; 
+    border-style: outset; 
+    border-radius: 5px; 
+    margin-top: 90px;
+    margin-right: 0px; 
+  }
+  
+  .text-align{
+    text-align: center; 
+    font-size: 40px; 
+    font-family: Cookie, cursive; 
+    margin-top: 0px; 
+  }
+  
+  .smallertext-align{
+    text-align: center; 
+    font-size: 22px; 
+    font-family: Cookie, cursive;
+    font-weight: bold; 
+  }
+  
+  .arial-text{ 
+    font-family: Arial Black; 
+    font-size: 10px; 
+  }
+  
+  .arial-text2{
+    font-family: Arial Black;
+    font-size: 20px; 
+  }
+  
+  .profile-picture {
+    width: 250px; 
+    height: 300px; 
+  }          
+  
+  .button-width {
+    width: 250px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .thumbnail-style {
+    height: 300px; 
+    width: 250px; 
+    margin: 70px 30px 70px 30px; 
+  }
+  
+  .navbar-style {
+    font-family: Comic Sans MS; 
+    font-weight: bold; 
+    font-size: 16px; 
+  }
+  .footer {
+    font-family: Arial Black;   
+    font-weight: bold;
+    font-size: 10px; 
+    margin-top: 20px; 
+  }
+  .padding-style {
+    padding-top: 50px; 
+  }
